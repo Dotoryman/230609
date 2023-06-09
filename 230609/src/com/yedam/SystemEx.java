@@ -19,6 +19,6 @@ public class SystemEx {
 		}
 		System.out.println("프로그램 종료");
 		long etime = System.currentTimeMillis();
-		System.out.printf("실행시간 : d%\n", (etime - stime));
+		System.out.printf("실행시간 : %d\n", (etime - stime));
 	}
 }

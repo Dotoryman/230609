@@ -38,7 +38,7 @@ public class SetEx {
 		iSet = new HashSet<>();
 		
 		while(iSet.size() < 5) {
-			iSet.add((int)(Math.random()*10 + 1));
+			iSet.add((int)(Math.random()*45 + 1));
 		}
 		
 		int idx = 0;
